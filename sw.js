@@ -13,10 +13,10 @@ self.addEventListener('install', async (ev) => {
     })());
 });
 
-self.addEventListener('install', async (ev) => {
+self.addEventListener('activate', async (ev) => {
     ev.waitUntil((async () => {
         const keys = await caches.keys();
-        const targets = keys.filter(key => !== catcheName);
+        const targets = keys.filter(key => key !== catcheName);
         return Promise.all(targets.map(target => caches.delete(target)));
     })());
 });
