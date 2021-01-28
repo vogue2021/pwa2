@@ -40,7 +40,6 @@ self.addEventListener('fetch', async (ev) => {
             return new Response(error);
         }
 
-        }
     })());
 
 });
