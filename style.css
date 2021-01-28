@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body {
+    background-image: url(images/bmi3.jpg);
+    text-align: center;
+}
+
+div {
+    margin-top:15px ;
+}
+
+h3 {
+    color: red;
+}
+h4 {
+    color: blue;
+}
+h2, h3, h4 {
+    font-family: 'Kosugi Maru', sans-serif;
+}
+@media (max-width: 600px) {
+    div {
+        color:darkblue;
+    }
+    img {
+        margin-top: 30px;
+    }
+    div {
+        margin-top: 20px;
+    }
+    h2, h3, h4 {
+        color: yellow;
+    }
+}
