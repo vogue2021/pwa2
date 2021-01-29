@@ -13,7 +13,7 @@
             "type": "image/png"
         },
         {
-            "src": "/icon/icon.png",
+            "src": "/images/icon.png",
             "sizes": "180x180",
             "type": "image/png"
         }
